@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-python.isort",
+        "bungcip.better-toml",
+        "ms-toolsai.vscode-jupyter-slideshow"
+    ]
+}
