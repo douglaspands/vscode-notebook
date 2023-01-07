@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "vscode-notebook"
 version = "0.1.0"
-description = "Projeto de Jupyter Notebook configurado n VSCode"
+description = "Projeto de Jupyter Notebook configurado no VSCode"
 authors = ["douglaspands"]
 
 [tool.poetry.dependencies]
