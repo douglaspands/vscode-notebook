@@ -514,6 +514,18 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "pillow"
+version = "9.4.0"
+description = "Python Imaging Library (Fork)"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+docs = ["furo", "olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-inline-tabs", "sphinx-issues (>=3.0.1)", "sphinx-removed-in", "sphinxext-opengraph"]
+tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
+
+[[package]]
 name = "platformdirs"
 version = "2.6.2"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -907,7 +919,7 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "af704150a38bad722187e4b6feda076ee00ea354143c2f622ea0743a58cf597b"
+content-hash = "66d1d40a14a10642c6129eae7d201cb94e872797ff7142d82015db7fea78ba09"
 
 [metadata.files]
 appnope = []
@@ -953,6 +965,7 @@ parso = []
 pathspec = []
 pexpect = []
 pickleshare = []
+pillow = []
 platformdirs = []
 prompt-toolkit = []
 psutil = []
