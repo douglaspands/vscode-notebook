@@ -13,6 +13,5 @@ poetry install
 ```
 
 ## Notebooks
-
-### Web Scraping
-- [MangaLivre](./notebooks/manga_livre.ipynb)
+- [Download de manga do MangaLivre](./notebooks/mangalivre.ipynb)
+- [Download de video do Youtube](./notebooks/youtube.ipynb)

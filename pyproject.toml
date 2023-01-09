@@ -11,6 +11,7 @@ selenium-wire = "^5.1.0"
 pydash = "^5.1.2"
 requests = "^2.28.1"
 Pillow = "^9.4.0"
+pytube = "^12.1.2"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.20.0"

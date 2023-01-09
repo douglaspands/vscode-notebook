@@ -6,6 +6,7 @@
         "ms-python.isort",
         "bungcip.better-toml",
         "ms-toolsai.vscode-jupyter-slideshow",
-        "ms-python.black-formatter"
+        "ms-python.black-formatter",
+        "njpwerner.autodocstring"
     ]
 }

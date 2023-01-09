@@ -682,6 +682,14 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
 six = ">=1.5"
 
 [[package]]
+name = "pytube"
+version = "12.1.2"
+description = "Python 3 library for downloading YouTube Videos."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "pytz"
 version = "2022.7"
 description = "World timezone definitions, modern and historical"
@@ -919,7 +927,7 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "66d1d40a14a10642c6129eae7d201cb94e872797ff7142d82015db7fea78ba09"
+content-hash = "75fe7ab99a550c9c82386438b901dbe4c70a789ab75b6226cb698330a06fca37"
 
 [metadata.files]
 appnope = []
@@ -981,6 +989,7 @@ pyopenssl = []
 pyparsing = []
 pysocks = []
 python-dateutil = []
+pytube = []
 pytz = []
 pywin32 = []
 pyzmq = []
