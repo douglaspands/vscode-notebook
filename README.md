@@ -11,3 +11,8 @@ Projeto de Jupyter Notebook configurado no VSCode.
 ```sh
 poetry install
 ```
+
+## Notebooks
+
+### Web Scraping
+- [MangaLivre](./notebooks/manga_livre.ipynb)
