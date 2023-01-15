@@ -3,6 +3,8 @@ name = "vscode-notebook"
 version = "0.1.0"
 description = "Projeto de Jupyter Notebook configurado no VSCode"
 authors = ["douglaspands"]
+readme = "README.md"
+repository = "https://github.com/douglaspands/vscode-notebook"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
