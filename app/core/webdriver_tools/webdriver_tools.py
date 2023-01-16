@@ -20,9 +20,9 @@ class WebDriverTools:
         if isinstance(download_path, str):
             download_path = Path(download_path)
         self.download_path = download_path
-        self.download_path.mkdir(exist_ok=True)
+        self.download_path.mkdir(parents=True, exist_ok=True)
         self.screenshot_path = self.download_path.joinpath("prints")
-        self.screenshot_path.mkdir(exist_ok=True)
+        self.screenshot_path.mkdir(parents=True, exist_ok=True)
 
     def save_screen(self):
         file_path = str(self.screenshot_path.joinpath(f"{uuid4()!s}.png"))

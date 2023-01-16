@@ -25,8 +25,8 @@ class ChromeWebDriver:
     ):
         if isinstance(download_path, str):
             download_path = Path(download_path)
-        download_path.mkdir(exist_ok=True)
-        config.CHROME_PATH.mkdir(exist_ok=True)
+        download_path.mkdir(parents=True, exist_ok=True)
+        config.CHROME_PATH.mkdir(parents=True, exist_ok=True)
         self._chromedriver_path = download_chromedriver(
             path=config.CHROME_PATH, no_ssl=False
         )
