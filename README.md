@@ -16,21 +16,19 @@ poetry install
 - [Download de video do Youtube](./notebooks/youtube.ipynb)
 
 ## Dependencias Importantes
-### Chrome + Chromedriver (Ubuntu)
-É necessario fazer a instalação das seguintes dependencias do SO Linux (Ubuntu):
-1) Instale o Google Chrome
+### Dependencias do SO
+É necessario ter o `Google-Chrome` instalado.
+
+se necessario, a instalação do `Chrome` no `Ubuntu` de forma manual:
 ```sh
 sudo apt-get install -y curl unzip xvfb libxi6 libgconf-2-4 && \
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
     sudo apt install ./google-chrome-stable_current_amd64.deb -y && \
     google-chrome --version
 ```
-2) Instale o Chromedriver baseado na versão no Google-Chrome. Nesse momento a versão é a `108.0.5359.71`:
+
+### Dependencias do Python
+Se tiver o `python-poetry`:
 ```sh
-wget https://chromedriver.storage.googleapis.com/108.0.5359.71/chromedriver_linux64.zip && \
-    unzip chromedriver_linux64.zip && \
-    sudo mv chromedriver /usr/bin/chromedriver && \
-    sudo chown root:root /usr/bin/chromedriver && \
-    sudo chmod +x /usr/bin/chromedriver
+poetry install
 ```
-> - [https://chromedriver.chromium.org/](https://chromedriver.chromium.org/)
