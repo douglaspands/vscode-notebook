@@ -16,6 +16,8 @@ Pillow = "^9.4.0"
 pytube = "^12.1.2"
 ipykernel = "^6.20.0"
 beautifulsoup4 = "^4.11.1"
+ffmpeg-python = "^0.2.0"
+pyee = "^9.0.4"
 
 [tool.poetry.dev-dependencies]
 black = "^22.12.0"
