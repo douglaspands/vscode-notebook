@@ -20,6 +20,8 @@ ffmpeg-python = "^0.2.0"
 pyee = "^9.0.4"
 openai = "^0.27.6"
 python-dotenv = "^1.0.0"
+spacy = "^3.5.3"
+pyspellchecker = "^0.7.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
