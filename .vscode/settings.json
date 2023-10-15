@@ -1,5 +1,10 @@
 {
     "jupyter.notebookFileRoot": "${workspaceFolder}",
-    "python.formatting.provider": "black",
-    "isort.args":["--profile", "black"]
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 }
