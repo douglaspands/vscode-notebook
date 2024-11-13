@@ -26,6 +26,7 @@ pandas = "^2.2.1"
 aiohttp = "^3.9.3"
 pillow = "^10.2.0"
 
+langchain-ollama = "^0.2.0"
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
 isort = "^5.11.4"
