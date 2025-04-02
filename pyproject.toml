@@ -6,7 +6,7 @@ authors = [
     {name = "Douglas Panhota",email = "douglaspands@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11,<3.13"
+requires-python = ">=3.13,<3.14"
 dependencies = [
     "selenium-wire (>=5.1.0,<6.0.0)",
     "pydash (>=8.0.5,<9.0.0)",
@@ -18,7 +18,6 @@ dependencies = [
     "pyee (>=12.1.1,<13.0.0)",
     "openai (>=1.61.1,<2.0.0)",
     "python-dotenv (>=1.0.1,<2.0.0)",
-    "spacy (>=3.8.4,<4.0.0)",
     "pyspellchecker (>=0.8.2,<0.9.0)",
     "m3u8 (>=6.0.0,<7.0.0)",
     "tqdm (>=4.67.1,<5.0.0)",
