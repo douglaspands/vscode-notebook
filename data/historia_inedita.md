@@ -39,7 +39,3 @@ Branca de Neve sorriu, segura em seu caminho mágico. "Meu avô me ensinou que a
 Do alto das árvores, Chapeuzinho Vermelho apareceu com uma capa transformada em coruja noturna também. Ela lançou um feitiço que prendeu o lobo em pedra, enquanto Branca de Neve e o avô se abraçavam.
 
 Todos viveram felizes daquela noite em frente ao fogo, contando histórias até o sono tomar conta delas. A amizade entre Branca de Neve e Chapeuzinho Vermelho era mais forte do que qualquer perigo, mostrando que a verdadeira coragem vem do coração.
-
----
-
-Espero que você tenha gostado deste caprichado relato em formato de livro!
