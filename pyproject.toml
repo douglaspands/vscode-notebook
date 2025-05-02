@@ -2,9 +2,7 @@
 name = "vscode-notebook"
 version = "1.1.0"
 description = "Projeto de Jupyter Notebook configurado no VSCode"
-authors = [
-    {name = "Douglas Panhota",email = "douglaspands@gmail.com"}
-]
+authors = [{ name = "Douglas Panhota", email = "douglaspands@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
@@ -24,6 +22,14 @@ dependencies = [
     "pillow (>=11.1.0,<12.0.0)",
     "pydantic (>=2.10.6,<3.0.0)",
     "xmltodict (>=0.14.2,<0.15.0)",
+    "langchain (>=0.3.25,<0.4.0)",
+    "langchain-community (>=0.3.23,<0.4.0)",
+    "sentence-transformers (>=4.1.0,<5.0.0)",
+    "pypdf (>=5.4.0,<6.0.0)",
+    "faiss-cpu (>=1.11.0,<2.0.0)",
+    "langchain-huggingface (>=0.1.2,<0.2.0)",
+    "langchain-ollama (>=0.3.2,<0.4.0)",
+    "ipywidgets (>=8.1.6,<9.0.0)",
 ]
 
 [build-system]
@@ -31,7 +37,7 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-packages = [{"include" = "app"}]
+packages = [{ "include" = "app" }]
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.9.5"

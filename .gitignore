@@ -132,3 +132,4 @@ dmypy.json
 files/*
 !files/.keep
 !files/prints/.keep
+faiss_index_
